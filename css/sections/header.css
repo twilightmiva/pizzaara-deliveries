@@ -13,19 +13,25 @@ nav{
     display: flex;
     justify-content: space-around; 
     align-items: center;
+    padding: 2rem;
  }
  .nav__center ul{
     display: flex;
-    gap: 3em;
+    gap: 7em;
  }
  .nav__center ul li{
     list-style-type: none; 
     font-size: 1.5rem;
 }
+.nav__center ul li:hover{
+    background-color: #EEA534;
+    color: white;
+}
 
 .nav__center ul li a{
     text-decoration: none;
     color: black;
+    
 
 }
 .nav__right{
