@@ -41,6 +41,7 @@ nav {
 }
 .hero__left p {
   margin: 1em 0;
+  font-size: 1.5rem;
 }
 .hero__left h1 span {
   color: #eea534;
