@@ -23,9 +23,13 @@ nav{
     list-style-type: none; 
     font-size: 1.5rem;
 }
-.nav__center ul li:hover{
+.nav__center ul li a{
+    padding: 1em;
+}
+.nav__center ul li a:hover{
     background-color: #EEA534;
     color: white;
+
 }
 
 .nav__center ul li a{
