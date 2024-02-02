@@ -50,3 +50,7 @@ nav {
   background-color: black;
   color: white;
 }
+.hero__left input{
+    border-style: none;
+    outline: none;
+}
