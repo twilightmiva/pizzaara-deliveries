@@ -105,3 +105,23 @@ hero{
   background-color: black;
   border-radius: 50%;
 }
+.menu h3 span{
+color:#eea534;
+}
+.menu ul{
+  display: flex;
+}
+.menu ul li{
+  list-style-type: none;
+}
+.menu ul li a{
+  text-decoration: none;
+  color:black;
+}
+.menu ul li a:hover{
+  background-color: #eea534;
+  color: white;
+}
+.menu__links{
+  justify-content: space-around;
+}
