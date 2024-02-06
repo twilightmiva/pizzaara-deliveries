@@ -77,31 +77,34 @@ hero{
     background-color: black;
     color:white ;
 }
-.card{
+.hero__container .card{
   display: flex;
   justify-content: space-evenly;
   margin-top: 2em;
 }
-.card__left{
+.hero__container .card__left{
   background-color: #f4f7fb;
-}
-.card__left--image{
-  background-color: black;
-  border-radius: 50%;
+  padding: 1em 2em;
 
 }
-.card__center{
-  background-color: #f4f7fb;
-}
-.card__center--image{
+.hero__container .card__left--image{
   background-color: black;
   border-radius: 50%;
-
 }
-.card__right{
+.hero__container .card__center{
+padding: 1em 2em;
   background-color: #f4f7fb;
 }
-.card__right--image{
+.hero__container .card__center--image{
+  background-color: black;
+  border-radius: 50%;
+  }
+.hero__container .card__right{
+  background-color: #f4f7fb;
+  padding: 1em 2em;
+
+}
+.hero__container .card__right--image{
   background-color: black;
   border-radius: 50%;
 }
@@ -135,4 +138,29 @@ color:#eea534;
 }
 .menu__cart--right{
   background-color: #f4f7fb;
+}
+.whyus{
+  display: flex;
+  gap:2em;
+}
+.whyus .card{
+  display: inline-block;
+  justify-content: space-around;
+  background: #f4f7fb;
+}
+.whyus .card__up{
+  background-color:lightgrey;
+  margin-top:2em;
+  margin-right: 2em;
+  margin-bottom:2em;
+}
+.whyus .card__up img{
+  background-color: black;
+}
+.whyus .card__middle img{
+
+  background-color: black;
+}
+.whyus .card__down img{
+  background-color: black;
 }
