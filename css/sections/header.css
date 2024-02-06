@@ -14,6 +14,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding: 2rem;
+  width:90%
 }
 .nav__center ul {
   display: flex;
@@ -39,9 +40,16 @@ nav {
   display: flex;
   gap: 2em;
 }
+hero{
+  width:90%
+}
+.hero__container{
+  justify-content:space-around;
+  display: flex;
+}
 .hero__left p {
   margin: 1em 0;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
 .hero__left h1 span {
   color: #eea534;
@@ -53,4 +61,49 @@ nav {
 .hero__left input{
     border-style: none;
     outline: none;
+}
+.hero__left .searchbar{
+    border: solid lightgray 1px;
+    width:240%;
+    padding: 1.6em;
+  
+  }
+  .hero__left .search{
+    display: flex;
+    align-items: center;
+}
+.hero__left button{
+    padding: 2em 2em;
+    background-color: black;
+    color:white ;
+}
+.card{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2em;
+}
+.card__left{
+  background-color: #f4f7fb;
+}
+.card__left--image{
+  background-color: black;
+  border-radius: 50%;
+
+}
+.card__center{
+  background-color: #f4f7fb;
+}
+.card__center--image{
+  background-color: black;
+  border-radius: 50%;
+
+}
+.card__right{
+  background-color: #f4f7fb;
+}
+.card__right--image{
+  background-color: black;
+  border-radius: 50%;
+
+
 }
