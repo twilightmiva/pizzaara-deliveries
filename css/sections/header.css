@@ -11,9 +11,9 @@ nav {
 }
 .nav__container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 2rem 0;
   width:90%
 }
 .nav__center ul {
@@ -44,7 +44,7 @@ hero{
   width:90%
 }
 .hero__container{
-  justify-content:space-around;
+  justify-content:space-between;
   display: flex;
 }
 .hero__left p {
@@ -108,59 +108,6 @@ padding: 1em 2em;
   background-color: black;
   border-radius: 50%;
 }
-.menu h1 span{
-color:#eea534;
-}
-.menu ul li{
-  list-style-type: none;
-}
-.menu ul li a{
-  text-decoration: none;
-  color:black;
-}
-.menu ul li a:hover{
-  background-color: #eea534;
-  color: white;
-}
-.menu__links ul {
-  display: flex;
-  justify-content: space-around;
-}
-.menu__cart{
-  display: flex;
-  justify-content: space-evenly;
-}
-.menu__cart--left{
-  background-color: #f4f7fb;
-}
-.menu__cart--center{
-  background-color: #f4f7fb;
-}
-.menu__cart--right{
-  background-color: #f4f7fb;
-}
-.whyus{
-  display: flex;
-  gap:2em;
-}
-.whyus .card{
-  display: inline-block;
-  justify-content: space-around;
-  background: #f4f7fb;
-}
-.whyus .card__up{
-  background-color:lightgrey;
-  margin-top:2em;
-  margin-right: 2em;
-  margin-bottom:2em;
-}
-.whyus .card__up img{
-  background-color: black;
-}
-.whyus .card__middle img{
 
-  background-color: black;
-}
-.whyus .card__down img{
-  background-color: black;
-}
+
+

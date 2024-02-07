@@ -1,0 +1,68 @@
+.menu__title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+.menu h1 span{
+    color:#eea534;
+    }
+    .menu ul li{
+      list-style-type: none;
+    }
+    .menu ul li a{
+      text-decoration: none;
+      color:black;
+    }
+    .menu ul li a:hover{
+      background-color: #eea534;
+      color: white;
+    }
+    .menu__links ul {
+      display: flex;
+      justify-content: space-between;
+    }
+    .menu__cart{
+      display: flex;
+      justify-content: space-between;
+    }
+    .menu__cart--left{
+      background-color: #f4f7fb;
+    }
+    .menu__cart--left button{
+background-color: black;
+color: white;
+padding:1em 2em;
+border:none ;
+
+    }
+
+    .menu__cart--center{
+      background-color: #f4f7fb;
+    }
+    .menu__cart--center button{
+      background-color: black;
+color: white;
+padding:1em 2em;
+border:none ;
+
+    }
+    .menu__cart--right button{
+
+    background-color: black;
+    color: white;
+    padding:1em 2em;
+  border:none ;
+}
+    .menu__cart--right{
+      background-color: #f4f7fb;
+    }
+    .menu button:last-child { 
+      /* display: flex; */
+  /* flex-direction: column; */
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 2em 4em;
+  border: none;
+    }
