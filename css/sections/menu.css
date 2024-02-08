@@ -3,20 +3,30 @@
   flex-direction: column;
   align-items: center;
   padding: 2em;
+  font-size: large;
+  font-weight: bold;
 }
 .menu h1 span{
     color:#eea534;
     }
+    .menu ul{
+      border-bottom: 3px solid grey;
+    }
     .menu ul li{
       list-style-type: none;
+      padding-bottom: 1em;
     }
     .menu ul li a{
       text-decoration: none;
       color:black;
+      
+      font-size: 2em;
+      font-weight:500;
     }
     .menu ul li a:hover{
-      background-color: #eea534;
-      color: white;
+      border-bottom:4px solid #eea534;
+      color: #eea534;
+  
     }
     .menu__links ul {
       display: flex;
@@ -34,6 +44,7 @@ background-color: black;
 color: white;
 padding:1em 2em;
 border:none ;
+
 
     }
 
@@ -57,12 +68,13 @@ border:none ;
     .menu__cart--right{
       background-color: #f4f7fb;
     }
-    .menu button:last-child { 
-      /* display: flex; */
-  /* flex-direction: column; */
-  text-align: center;
-  background-color: black;
+    .view{
+  background-color:#eea534;
   color: white;
   padding: 2em 4em;
   border: none;
+  text-align: center;
+  text-align: center;
+  
     }
+    

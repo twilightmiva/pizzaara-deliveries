@@ -7,28 +7,41 @@ margin-top: 2em;
 .footer__container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .footer__left{
     padding-bottom: 3em;
+    margin-top: 4em;
 }
+
 .footer__left p{
     color: white;
     font-size: 1.8em;
+    padding: 1em 0;
 }
 .footer__center{
     padding-bottom: 3em;
+    margin-top: 5em;
 }
 .footer__center h2{
     color: white;
     font-size: 2em;
     padding-bottom: 1em;
 }
+.footer__center ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:2em
+}
 .footer__center ul li{
     list-style-type: none;
+
 }
 .footer__center ul li a{
     text-decoration: none;
     color: white;
+
 }
 .footer__center ul li a:hover{
     color:#eea235;
@@ -40,14 +53,20 @@ margin-top: 2em;
 }
 .footer__right {
     padding-bottom: 3em;
+    
     input{
-        padding: 2em 4em;
+        padding-right:7em;
+        padding-left: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
         border-style: none;
         outline: none;
+        border-radius: 3px;
     }
     button{
         padding: 2em 2em;
         background-color: #eea235;
         border: none;
+        border-radius: 3px;
     }
 }

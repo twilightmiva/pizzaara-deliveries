@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .menu__links ul li{
+    list-style-type: none;
+  }
+  .menu__links ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 2em;
+    font-weight:500;
+  }
+  .menu__links ul li a:hover{
+    color: #eea534;
+    
+      } */
+.cart{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    
+}
+.cart__line1{
+        justify-content:space-around;
+        display: flex;
+    font-size: 1.5em;
+    font-weight:500;
+    gap:3em;
+}
+.menu__cart1{
+    background-color: #f4f7fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .menu__cart1 button{
+background-color: black;
+color: white;
+padding:1em 2em;
+border:none ;
+font-size: 1em;
+font-weight:500;
+
+  }
+  .cart__line2{
+    justify-content:space-around;
+    display: flex;
+    font-size: 2em;
+    font-weight:500;
+    gap:2em;
+}
+  .menu__cart2{
+    background-color: #f4f7fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu__cart2 button{
+background-color: black;
+color: white;
+padding:1em 2em;
+border:none ;
+font-size: 1em;
+font-weight:500;
+margin-top: 1.3em;
+
+  }
+  .cart__line3{
+    justify-content:space-around;
+    display: flex;
+    font-size: 2em;
+    font-weight:500;
+    gap:2em;
+}
+  .menu__cart3{
+    background-color: #f4f7fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu__cart3 button{
+background-color: black;
+color: white;
+padding:1em 2em;
+border:none ;
+font-size: 1em;
+font-weight:500;
+  }
+  .cart__line4{
+    justify-content:space-around;
+    display: flex;
+    font-size: 2em;
+    font-weight:500;
+    gap:2em;
+  }
+  .menu__cart4{
+    background-color: #f4f7fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu__cart4 button{
+background-color: black;
+color: white;
+padding:1em 2em;
+border:none ;
+font-size: 1em;
+font-weight:500;
+margin-top: 0.9em;
+  }
+  .cart__line5{
+    justify-content:space-around;
+    display: flex;
+    font-size: 2em;
+    font-weight:500;
+    gap:2em;
+}
+  .menu__cart5{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+   
+  .menu__cart5 button{
+background-color: black;
+color: white;
+padding:1em 2em;
+border:none ;
+font-size: 2em;
+font-weight:500;
+  }

@@ -1,3 +1,6 @@
+ .help h2 span {
+    color: #eea235;
+ }
  .help .help__title{
     display: flex;
     flex-direction: column;
