@@ -40,9 +40,7 @@ nav {
   display: flex;
   gap: 2em;
 }
-hero{
-  width:90%
-}
+
 .hero__container{
   justify-content:space-between;
   display: flex;
@@ -50,6 +48,7 @@ hero{
 }
 .hero__left{
   font-size: large;
+  width: auto;
 }
 .hero__left p {
   margin: 1em 0;;
@@ -59,28 +58,29 @@ hero{
 .hero__left h1 span {
   color: #eea534;
 }
-.hero__left label {
-  background-color: black;
-  color: white;
+
+/* Search bar */
+.search{
+  border: 2px solid gray;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 1em;
 }
-.hero__left input{
-    border-style: none;
-    outline: none;
+.search input{
+padding: 2em;
+flex: 1;
+border: none;
+outline: none;
+
 }
-.hero__left .searchbar{
-    border: solid lightgray 1px;
-    width:240%;
-    padding: 1.6em;
-  
-  }
-  .hero__left .search{
-    display: flex;
-    align-items: center;
-}
-.hero__left button{
-    padding: 2em 2em;
-    background-color: black;
-    color:white ;
+.search button{
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 2em;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .hero__container .card{
   display: flex;

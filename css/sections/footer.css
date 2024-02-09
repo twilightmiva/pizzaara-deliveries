@@ -54,19 +54,28 @@ margin-top: 2em;
 .footer__right {
     padding-bottom: 3em;
     
-    input{
-        padding-right:7em;
-        padding-left: 2em;
-        padding-top: 2em;
-        padding-bottom: 2em;
-        border-style: none;
-        outline: none;
-        border-radius: 3px;
-    }
-    button{
-        padding: 2em 2em;
-        background-color: #eea235;
-        border: none;
-        border-radius: 3px;
-    }
+}
+.subscribe{
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.footer__right input{
+    
+padding: 2em;
+flex: 1;
+border: none;
+outline: none;
+border-top-left-radius: 7px;
+border-bottom-left-radius: 7px;
+}
+.footer__right button{
+    background-color: #eea235;
+  border: none;
+  color: #fff;
+  padding: 2em;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }

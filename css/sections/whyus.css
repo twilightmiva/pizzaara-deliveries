@@ -2,30 +2,38 @@
     display: flex;
     gap: 2em;
     background-color: #f4f7fb;
-  }
-  .whyus.card{
-    /* display: inline-block; */
-  
+}
+.why__right .content{
+  background-color: white;
 
-  }
+}
+.whyus h2{
+  margin: 1em 0;
+}
+.whyus h2 span{
+color:#eea235;
+}
   .why__right{
-    display: flex;
-    flex-direction: column;
-justify-content: space-between;
+    display:flex;
+    flex-direction:column;
+justify-content:space-between;
     
   }
-  /* .why__right .card{ */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
-
-  /* } */
-  .whyus .card__up{
-    display: flex;
-    gap:2em;
-    align-items: center;
+  .why__right .card p{
+    color:grey;
   }
-  .whyus .card__up img{
+
+  .why__right .card{
+    background-color:white ;
+    display: flex;
+    align-items: center;
+    padding-left:1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 2em;
+  }
+
+  .why__right .card div:first-child{
     background-color: black;
     height: 70px;
     width: 70px;
@@ -33,34 +41,5 @@ justify-content: space-between;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .whyus .card__middle{
-    display: flex;
-    align-items: center;
-    gap:2em;
-
-  }
-  .whyus .card__middle img{
-    background-color: black; 
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .whyus .card__down{
-    display: flex;
-    align-items: center;
-    gap:2em;
-
-  }
-  .whyus .card__down img{
-    background-color: black;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-right: 1em;
   }
